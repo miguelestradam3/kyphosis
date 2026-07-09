@@ -48,19 +48,6 @@ jupyterthemes
 
 ---
 
-## 📂 Project Structure
-
-```
-kyphosis/
-│
-├── kyphosis.csv
-├── main.ipynb
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## 📊 Dataset
 
 The project uses the **Kyphosis** dataset, which contains medical information about children who underwent corrective spinal surgery.
@@ -156,11 +143,7 @@ cd kyphosis
 
 ### Install dependencies
 
-```bash
-pip install -r requirements.txt
-```
-
-Or install manually:
+Install manually:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn jupyterthemes
